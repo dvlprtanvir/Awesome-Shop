@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* <!-- nav bar start here --> */
+.header {
+    background-color: #9376e0;
+}
+
+.header-section {
+    max-width: 1250px;
+    /* background-color: red; */
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    /* background-color: blueviolet; */
+}
+
+.nav-container {
+    /* border: 2px solid red; */
+    min-height: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+
+.nav-container img {
+    width: 90px;
+    object-fit: cover;
+}
+
+.nav-container p {
+    font-size: 25px;
+}
+
+.special {
+    color: #e893cf;
+    font-weight: 900;
+}
+
+.item-container {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-container a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #e893cf;
+    border-radius: 5px;
+}
+
+.item-container .login-button a {
+    padding: 10px 20px;
+
+    color: black;
+}
+
+/* <!-- nav bar finish here --> */
+
+
+
+/* <!-- banner section styles start  --> */
+
+.banner-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    /* background-color: red; */
+    /* border: 5px solid blue; */
+    min-height: 400px;
+    display: flex;
+    background-color: #e6e9eb; 
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.text-container {
+    /* border: 5px solid green; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.banner-image-container {
+    /* border: 5px solid violet; */
+    width: 50%;
+    position: relative;
+}
+
+.banner-image-container img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+        border-radius: 10px;
+
+}
+
+text-container h1,
+p,
+span {
+    /* font-size: 45px; */
+}
+.banner-heading{
+    background: linear-gradient(45deg,#e893cf, #9376e0 );
+    background-clip: text;  
+    color: transparent;
+    font-size: 60px;
+}
+
+#text-mens-collection{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.fa-brands{
+    font-size: 45px; 
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+    /* width: 100%;
+    justify-content: space-around;
+    align-items: center; */
+}
+.common-button{
+    padding: 10px 20px;
+    /* color: white; */
+    border: 2px solid #e893cf;
+    border-radius: 5px;
+}
+.discount{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 70%;
+    left: 65%;
+}
+/* <!-- banner section styles finish  --> */
+
+
+/* product-section styles start */
+
+.product-section{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.grid-container{
+    /* min-width: 400px; */
+    /* border: 5px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.single-product{
+    /* border: 5px solid rgb(0, 30, 255); */
+    /* width: 30%; */
+    padding: 15px;
+    background-color: #e6e9eb;
+    border-radius: 5px;
+}
+.single-product img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.heading-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    background-color: #e893cf;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* product-section styles finish */
